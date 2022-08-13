@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "ESG Glossary",
+  "description": "A personal glossary/note taker",
+  "version": "0.0.1",
+  "permissions": ["storage"],
+  "background": {
+    "service_worker": "./src/background.js"
+  },
+  "default_title": "ESG Glossary",
+  "action": {
+    "default_popup": "./src/popup.html",
+    "default_icon": {
+      "16": "./assets/logo16.png",
+      "32": "./assets/logo32.png"
+    }
+  },
+  "icons": {
+    "16": "./assets/logo16.png",
+    "32": "./assets/logo32.png"
+  }
+}
